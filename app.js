@@ -128,6 +128,4 @@ while (populationNewYork <= populationLubumbashi) {
     i++;
 }
 
-if(populationLubumbashi < populationNewYork){
-    console.log(i);
-}
+console.log(i);
