@@ -116,3 +116,18 @@ for(let i = 1; i <= 50; i++){
 
 //question 6
 
+let populationLubumbashi = 20000000;
+
+let populationNewYork = 8000000;
+let i =0;
+
+while (populationNewYork <= populationLubumbashi) {
+
+    populationLubumbashi += 30000;
+    populationNewYork += 8000000 * 0.02
+    i++;
+}
+
+if(populationLubumbashi < populationNewYork){
+    console.log(i);
+}
